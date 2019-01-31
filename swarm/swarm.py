@@ -103,6 +103,12 @@ class Agents(object):
         return result.reshape((-1, self.dim*2))
 
 class Visualizer(object):
+    '''Visualizer class\n
+    Base class for the simulation of the swarm behavior.
+    Args:
+        width (int): defines the width of the window
+        height (int): defines the height of the window
+    '''
     def __init__(self, width=800, height=800):
         self.canvas = SceneCanvas(size=(width, height), position=(0,0), keys='interactive', title=self.__class__.__name__)
         self.view = self.canvas.central_widget.add_view()
