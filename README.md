@@ -11,4 +11,5 @@
 ## Gallery
 
 ## Index
-1. ![patterns](/patterns)
+* ![patterns](/patterns)
+* ![swarms](/swarm)
