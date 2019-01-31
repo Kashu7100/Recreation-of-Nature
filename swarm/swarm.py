@@ -22,6 +22,13 @@ class Agents(object):
         alignment_dist (double): determines the range of an agent to face the same direction as the sorrounding agents
         attack_dist (double): determines the range of an agent to attack other agents (prey) in different groups
         escape_dist (double): determines the range of an agent to escape from ohter agents (predator) in different groups
+        cohesion_angle (double): determines the effenctive angle of an agent to move towards the center of the group
+        separation_angle (double): determines the effenctive angle of an agent to move away from other agents in the group
+        alignment_angle (double): determines the effenctive angle of an agent to face the same direction as the sorrounding agents
+        max_speed (double): defines maximum speed of the agents
+        min_speed (double): defines minimum speed of the agents
+        boundary_force (double): affects an agent get out of the boundary
+        boundary (double): defines the boundary of free space
     '''
     def __init__(self, number, dim=3, cohesion_force=0.01, separation_force=0.4, alignment_force=0.001, attack_force=0.005, escape_force=0.0025,
                     cohesion_dist=0.5, separation_dist=0.05, alignment_dist=0.05, attack_dist=0.3, escape_dist=0.5,
