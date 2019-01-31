@@ -17,7 +17,11 @@ class Agents(object):
         alignment_force (double): determines the tendency of an agent to face the same direction as the sorrounding agents
         attack_force (double): determines the tendency of an agent to attack other agents (prey) in different groups
         escape_force (double): determines the tendency of an agent to escape from ohter agents (predator) in different groups
-
+        cohesion_dist (double): determines the range of an agent to move towards the center of the group
+        separation_dist (double): determines the range of an agent to move away from other agents in the group
+        alignment_dist (double): determines the range of an agent to face the same direction as the sorrounding agents
+        attack_dist (double): determines the range of an agent to attack other agents (prey) in different groups
+        escape_dist (double): determines the range of an agent to escape from ohter agents (predator) in different groups
     '''
     def __init__(self, number, dim=3, cohesion_force=0.01, separation_force=0.4, alignment_force=0.001, attack_force=0.005, escape_force=0.0025,
                     cohesion_dist=0.5, separation_dist=0.05, alignment_dist=0.05, attack_dist=0.3, escape_dist=0.5,
