@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/swarm-intel.jpg?raw=true" alt="Qualia Logo"/>
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/swarm-intel.jpg?raw=true" height="450"/>
 </p>
 
 ## Requirements
