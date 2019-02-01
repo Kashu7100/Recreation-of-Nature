@@ -10,8 +10,8 @@
 
 ## Index
 
-* ![patterns](/patterns)
-* ![swarms](/swarm)
+### * ![patterns](/patterns)
+### * ![swarms](/swarm)
 
 
 ## License
