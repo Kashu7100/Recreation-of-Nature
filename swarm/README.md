@@ -14,4 +14,3 @@ Boids is an artificial life program, developed by Craig Reynolds in 1986, which 
 |move towards center of mass of the group|avoid collision with other members|face towards the average heading of the group|
 ## Predator and Prey
 
-!video[predator and prey](/assets/swarm_prey_predator.mp4)
