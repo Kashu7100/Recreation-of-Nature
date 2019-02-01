@@ -12,9 +12,9 @@ Boids is an artificial life program, developed by Craig Reynolds in 1986, which 
 | ---- | ---- | ---- |
 |<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Rule_cohesion.gif"/></p>|<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Rule_separation.gif"/></p>|<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Rule_alignment.gif"/></p>|
 |move towards center of mass of the group|avoid collision with other members|face towards the average heading of the group|
-## Predator and Prey
+### predator and prey
 
-![Alt Text](/assets/boids_predator_prey.gif)
+In the following simulation for predation, we can see a simulated interaction of predator and prey; one kills and eats another organism, where the predator is represented by the red arrow and the prey is represented by the blue arrow. 
 
 <p align="center">
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/boids_predator_prey.gif"/>
