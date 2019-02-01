@@ -10,14 +10,14 @@ Boids is an artificial life program, developed by Craig Reynolds in 1986, which 
 
 * Cohesion
 
-<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_cohesion.gif?raw=true"/>
+<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_cohesion.gif"/>
 
 * Separation
 
-<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_separation.gif?raw=true"/>
+<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_separation.gif"/>
 
 * Alignment
 
-<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_alignment.gif?raw=true"/>
+<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_alignment.gif"/>
 
 ## Predator and Prey
