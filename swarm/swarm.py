@@ -1,9 +1,7 @@
 import numpy as np
 import vispy
-import random
 from vispy import app
-from vispy.scene import SceneCanvas
-from vispy.scene import visuals
+from vispy.scene import visuals, SceneCanvas
 from vispy.gloo.util import _screenshot
 
 class Agents(object):
@@ -30,9 +28,9 @@ class Agents(object):
         boundary_force (double): affects an agent get out of the boundary
         boundary (double): defines the boundary of free space
     '''
-    def __init__(self, number, dim=3, cohesion_force=0.01, separation_force=0.4, alignment_force=0.001, attack_force=0.005, escape_force=0.0025,
-                    cohesion_dist=0.5, separation_dist=0.05, alignment_dist=0.05, attack_dist=0.3, escape_dist=0.5,
-                    cohesion_angle=np.pi/2, separation_angle=np.pi/2, alignment_angle=np.pi/3,
+    def __init__(self, number, dim=3, cohesion_force=0.008, separation_force=0.5, alignment_force=0.05, attack_force=0.005, escape_force=0.0025,
+                    cohesion_dist=0.2, separation_dist=0.04, alignment_dist=0.3, attack_dist=0.3, escape_dist=0.5,
+                    cohesion_angle=np.pi/2, separation_angle=np.pi/2, alignment_angle=np.pi/2,
                     max_speed=0.03, min_speed=0.005, boundary_force=0.003, boundary=1):
         self.cohesion = [cohesion_force, cohesion_dist, cohesion_angle]
         self.separation = [separation_force, separation_dist, separation_angle] 
@@ -60,7 +58,8 @@ class Agents(object):
             if len(cohesion_agents) > 0:
                 self.vel[i] += self.cohesion[0] * (np.mean(cohesion_agents, axis=0) - self.pos[i])
             if len(separation_agents) > 0:
-                self.vel[i] += self.separation[0] * np.sum(separation_agents - self.pos[i], axis=0)
+                l = distance.reshape(-1,1)[np.all([distance < self.separation[1], angle < self.separation[2]], axis=0)]
+                self.vel[i] += self.separation[0] * np.sum((separation_agents - self.pos[i])/l, axis=0)
             if len(alignment_agents) > 0:
                 self.vel[i] += self.alignment[0] * (np.mean(alignment_agents, axis=0) - self.vel[i])
             if self.boundary_force > 0 and np.linalg.norm(self.pos[i]) > self.boundary:
@@ -109,11 +108,12 @@ class Visualizer(object):
         width (int): defines the width of the window
         height (int): defines the height of the window
     '''
-    def __init__(self, width=800, height=800):
+    def __init__(self, width=800, height=800, show_axis=True):
         self.canvas = SceneCanvas(size=(width, height), position=(0,0), keys='interactive', title=self.__class__.__name__)
         self.view = self.canvas.central_widget.add_view()
         self.view.camera = 'turntable'
-        self.axis = visuals.XYZAxis(parent=self.view.scene)
+        if show_axis:
+            self.axis = visuals.XYZAxis(parent=self.view.scene)
         self.canvas.show()
 
     def __bool__(self):
