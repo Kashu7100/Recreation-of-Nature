@@ -22,6 +22,7 @@ Each agent can access directly to the whole scene's geometric description, but a
 In the following simulation of predation, we can see a simulated interaction of predator and prey; one kills and eats another organism, where the predator is represented by the red arrow and the prey is represented by the blue arrow. 
 
 [full video](https://www.youtube.com/watch?v=ITv39Q1UePA)
+
 [source](/swarm/predator_prey.py)
 
 <p align="center">
