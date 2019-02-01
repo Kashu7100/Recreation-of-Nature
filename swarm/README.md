@@ -8,4 +8,16 @@
 
 Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds.
 
+* Cohesion
+
+<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_cohesion.gif?raw=true"/>
+
+* Separation
+
+<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_separation.gif?raw=true"/>
+
+* Alignment
+
+<img src="https://en.wikipedia.org/wiki/Boids#/media/File:Rule_alignment.gif?raw=true"/>
+
 ## Predator and Prey
