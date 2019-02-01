@@ -9,5 +9,11 @@
 ## Gallery
 
 ## Index
+
 * ![patterns](/patterns)
 * ![swarms](/swarm)
+
+
+## License
+
+Source codes in the repository follows [MIT](http://www.opensource.org/licenses/MIT) license.
