@@ -4,6 +4,8 @@
 
 ## Overview
 
+This section will get into the emergent phenomenon in group behavior. 
+
 ## Boids Model
 
 Boids is an artificial life program, developed by [Craig Reynolds](http://www.red3d.com/cwr/index.html) in 1986, which simulates the flocking behaviour of birds. Boids stands for "bird-oids". The basic model consists of three simple steering behaviors which describe how an individual agent maneuvers based on the positions and velocities of sarrownding agents. 
