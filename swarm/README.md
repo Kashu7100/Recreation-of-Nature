@@ -16,6 +16,4 @@ Boids is an artificial life program, developed by Craig Reynolds in 1986, which 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ITv39Q1UePA
 " target="_blank"><img src="http://img.youtube.com/vi/ITv39Q1UePA/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-https://youtu.be/ITv39Q1UePA
+alt="IMAGE ALT TEXT HERE" height="350" /></a>
