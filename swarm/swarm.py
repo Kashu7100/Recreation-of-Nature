@@ -48,7 +48,7 @@ class Agents(object):
     def __len__(self):
         return self.pos.shape[0]
     
-    def update(self, predator=None, prey=None):
+    def update(self, predator=None, prey=None, reproduction=False):
         for i in range(len(self)):
             distance = np.linalg.norm(self.pos - self.pos[i], axis=1)
             angle = np.arccos(np.dot(self.vel[i], (self.pos-self.pos[i]).T) / (np.linalg.norm(self.vel[i]) * np.linalg.norm((self.pos-self.pos[i]), axis=1)))
@@ -90,6 +90,11 @@ class Agents(object):
                     continue
                 else:
                     self.vel[i] += self.attack[0]*(prey.pos[np.argmin(targets)] - self.pos[i])/np.linalg.norm(prey.pos[np.argmin(targets)] - self.pos[i])**2
+        if reproduction:
+            if np.all(np.random.rand(1) < 0.002) and len(self) > 4:
+                idx = np.random.choice(len(self), np.random.randint(len(self)/4)*2, replace=False)
+                self.pos = np.vstack([self.pos,self.pos[idx]])
+                self.vel = np.vstack([self.vel,self.vel[idx]+np.random.rand(self.dim)/1000])
         for i in range(len(self)):
             v = np.linalg.norm(self.vel[i])
             if v < self.min_speed:
