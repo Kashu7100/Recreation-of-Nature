@@ -9,6 +9,7 @@ class Swarm(Visualizer):
 
     def update(self):
         super().update()
+        self.view.camera.orbit(1,0)
         self.arrow1.set_data(arrows=self.agents1.update())
 
 
