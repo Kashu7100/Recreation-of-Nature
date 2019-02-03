@@ -127,6 +127,7 @@ class Visualizer(object):
     def update(self):
         vispy.app.process_events()        
         self.canvas.update()
+        time.sleep(0.01)
 
     def animation(self, t):
         self.update()
