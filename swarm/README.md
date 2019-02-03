@@ -19,12 +19,12 @@ Each agent can access directly to the whole scene's geometric description, but a
 
 ### swarm formation
 
-In the following simulation of swarm formulation, we can see the process of agents, which were initially at random points in space, forming a swarm.  
+In the following simulation of swarm formation , we can see the process of agents, which were initially at random points in space, forming a swarm.  
 
 [[full video]](https://youtu.be/91VI1aa79-o)      [[source]](/swarm/swarm_formation.py)
 
 <p align="center">
-  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/boids_swarm_formulation.gif"/>
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/boids_swarm_formation.gif"/>
 </p>
 
 ### predator and prey
