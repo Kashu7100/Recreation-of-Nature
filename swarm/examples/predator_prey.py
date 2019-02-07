@@ -1,4 +1,4 @@
-from swarm_visualizer import Visualizer, Agents
+from ..swarm import Visualizer, Agents
 from vispy.scene import visuals
 
 class Swarm(Visualizer):
