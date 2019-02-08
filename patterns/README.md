@@ -16,5 +16,5 @@ This model describes the variation of u and v, which represent the concentration
 
 ### unstable spots
 <p align="center">
-  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstble_spots.gif" width="500"/>
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.gif" width="500"/>
 </p>
