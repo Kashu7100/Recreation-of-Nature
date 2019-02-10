@@ -20,9 +20,19 @@ class GrayScott(object):
 
     def update(self):
         lu = np.zeros_like(self.u)
-        lu[1:self.size[0]-1,1:self.size[1]-1] = (np.roll(self.u,1,axis=0)+np.roll(self.u,-1,axis=0)+np.roll(self.u,1,axis=1)+np.roll(self.u,-1,axis=1)-4*self.u)[1:self.size[0]-1,1:self.size[1]-1]/1e-4
+        lu[1:] += self.u[:-1]
+        lu[:-1] += self.u[1:]
+        lu[:,1:] += self.u[:,:-1]
+        lu[:,:-1] += self.u[:,1:]
+        lu -= 4*self.u
+        lu /= 1e-4
         lv = np.zeros_like(self.v)
-        lv[1:self.size[0]-1,1:self.size[1]-1] = (np.roll(self.v,1,axis=0)+np.roll(self.v,-1,axis=0)+np.roll(self.v,1,axis=1)+np.roll(self.v,-1,axis=1)-4*self.v)[1:self.size[0]-1,1:self.size[1]-1]/1e-4
+        lv[1:] += self.v[:-1]
+        lv[:-1] += self.v[1:]
+        lv[:,1:] += self.v[:,:-1]
+        lv[:,:-1] += self.v[:,1:]
+        lv -= 4*self.v
+        lv /= 1e-4
         self.u += self.Du*lu - self.u*self.v**2 + self.f*(1-self.u)
         self.v += self.Dv*lv + self.u*self.v**2 - (self.f+self.k)*self.v
 
@@ -42,3 +52,9 @@ class GrayScott(object):
         self.ax.imshow(self.u, interpolation='nearest', cmap="nipy_spectral")
         plt.axis('off')
         return mplfig_to_npimage(self.fig)
+
+if __name__ == '__main__':
+    unstable_spots = GrayScott(f=0.012, k=0.05)
+    for i in range(10000):
+        unstable_spots.update()
+        unstable_spots.visualize(i)
