@@ -59,3 +59,8 @@ if __name__ == '__main__':
     for i in range(10000):
         unstable_spots.update()
         unstable_spots.visualize(i)
+    
+    # in order to save the animation, take out the comments below 
+    #
+    #animation = VideoClip(g.animation, duration=200)
+    #animation.write_videofile('unstable_spots.mp4', fps=20)
