@@ -1,6 +1,6 @@
 ## Overview
 
-This section will get into the emergent phenomenon in patterns.
+In 1952, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) published a paper, "[The Chemical Basis of Morphogenesis](http://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf)," which mathematically demonstrated the main phenomena of morphogenesis. In the paper he introduced a concept of morphogens, which is a system of chemical substances reacting together and diffusing through a tissue, and demonstrated the main phenomena of morphogenesis with series of equations that morphogens obay for its interaction. Due to an instability of the homogeneous equilibrium, a reaction-diffusion system can produce a pattern or structure. This section will get into the emergent phenomenon in patterns.
 
 ## Gray Scott Model of Reaction Diffusion
 
