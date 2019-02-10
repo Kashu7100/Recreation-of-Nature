@@ -28,6 +28,7 @@ Hawaiian Whitespotted Toby
 </p>
 
 ### unstable spots (f=0.012, k=0.05)
+Spotted Eagle Ray
 <p align="center">
   <img src="http://www.animalspot.net/wp-content/uploads/2012/01/Spotted-eagle-ray-Photos.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.png" width="200"/>
