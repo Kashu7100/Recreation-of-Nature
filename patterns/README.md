@@ -28,6 +28,13 @@ Hawaiian Whitespotted Toby
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/self_replacing_spots.png" height="200"/>
 </p>
 
+### stable spots (f=0.035, k=0.065)
+Puffer Fish
+<p align="center">
+  <img src="https://foodsafetynewsfullservice.marlersites.com/files/2014/01/puffer-fish-406-2.jpg" height="200"/>
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/stable_spots.png" width="200"/>
+</p>
+
 ### unstable spots (f=0.012, k=0.05)
 Spotted Eagle Ray
 <p align="center">
