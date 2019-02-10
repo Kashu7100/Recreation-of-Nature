@@ -22,5 +22,5 @@ This model can be seen as a simulation of the behavior of diffusive living thing
 
 ### unstable spots (f=0.012, k=0.05)
 <p align="center">
-  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.gif" width="300"/>
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.png" width="300"/>
 </p>
