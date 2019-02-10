@@ -22,35 +22,35 @@ Gray Scott model describes the variation of u and v, which represent the concent
 This model can be seen as a simulation of the behavior of diffusive living things reproducing under conditions of limited food. Different patterns emerge for slight changes in feeding and death rates.
 
 ### self-replicating spots (f=0.022, k=0.05)
-Hawaiian Whitespotted Toby
+This pattern can be seen in Hawaiian Whitespotted Toby.
 <p align="center">
   <img src="https://mauioceancenter.com/wp-content/uploads/2017/09/White-Spotted-Toby-web-1-768x512.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/self_replacing_spots.png" height="200"/>
 </p>
 
 ### stable spots (f=0.035, k=0.065)
-Puffer Fish
+This pattern can be seen in Puffer Fish.
 <p align="center">
   <img src="https://foodsafetynewsfullservice.marlersites.com/files/2014/01/puffer-fish-406-2.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/stable_spots.png" width="200"/>
 </p>
 
 ### unstable spots (f=0.012, k=0.05)
-Spotted Eagle Ray
+This pattern can be seen in Spotted Eagle Ray.
 <p align="center">
   <img src="http://www.animalspot.net/wp-content/uploads/2012/01/Spotted-eagle-ray-Photos.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.png" width="200"/>
 </p>
 
 ### Labyrinthine pattern (f=0.04, k=0.06)
-Brain Coral
+This pattern can be seen in Brain Coral.
 <p align="center">
   <img src="https://oceana.org/sites/default/files/styles/lightbox/public/shutterstock_260309279.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/labyrinthine_pattern.png" width="200"/>
 </p>
 
 ### Worm-like pattern (f=0.042, k=0.064)
-Burrfish
+This pattern can be seen in Burrfish.
 <p align="center">
   <img src="https://scaquarium.org/wp-content/uploads/2015/11/sc-aquarium-burrfish-animal-spec-sheet.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/worm_like_pattern.png" width="200"/>
