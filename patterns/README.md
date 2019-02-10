@@ -13,8 +13,6 @@ This model describes the variation of u and v, which represent the concentration
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;v}{\partial&space;t}&space;=&space;D_v\triangledown^2v&space;-&space;uv^2&space;-&space;(F&plus;k)v" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;v}{\partial&space;t}&space;=&space;D_v\triangledown^2v&space;+&space;uv^2&space;-&space;(F&plus;k)v" title="\frac{\partial v}{\partial t} = D_v\triangledown^2v - uv^2 - (F+k)v" /></a>
 
-For the implementation, the laplacian on the edge of the defined space is set to be zero.
-
 ### unstable spots (f=0.012, k=0.05)
 <p align="center">
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.gif" width="300"/>
