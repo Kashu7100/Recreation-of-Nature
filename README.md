@@ -7,7 +7,7 @@
 * pytorch (--future)
 
 ## Gallery
-![unstable_spots](/assets/unstable_spots.png)
+![unstable_spots](/assets/unstable_spots.png height="150")
 
 ## Index
 
