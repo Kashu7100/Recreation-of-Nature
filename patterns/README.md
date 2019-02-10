@@ -15,7 +15,7 @@ This model describes the variation of u and v, which represent the concentration
 
 For the implementation, the laplacian on the edge of the defined space is set to be zero.
 
-### unstable spots
+### unstable spots (f=0.012, k=0.05)
 <p align="center">
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.gif" width="300"/>
 </p>
