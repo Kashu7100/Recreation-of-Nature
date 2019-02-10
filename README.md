@@ -7,10 +7,7 @@
 * pytorch (--future)
 
 ## Gallery
-
-<p align="center">
-  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/boids_swarm_formation.gif" width="500"/>
-</p>
+![unstable_spots](/assets/unstable_spots.png)
 
 ## Index
 
