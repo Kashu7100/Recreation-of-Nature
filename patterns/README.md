@@ -1,5 +1,6 @@
 ## Overview
 
+This section will get into the emergent phenomenon in patterns.
 
 ## Gray Scott Model of Reaction Diffusion
 
