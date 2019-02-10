@@ -49,3 +49,9 @@ Brain Coral
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/labyrinthine_pattern.png" width="200"/>
 </p>
 
+### Worm-like pattern (f=0.042, k=0.064)
+Burrfish
+<p align="center">
+  <img src="https://scaquarium.org/wp-content/uploads/2015/11/sc-aquarium-burrfish-animal-spec-sheet.jpg" height="200"/>
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/worm_like_pattern.png" width="200"/>
+</p>
