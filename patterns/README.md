@@ -5,7 +5,7 @@
 
 Gray Scott model describes the variation of u and v, which represent the concentration of chemical U and V respectively. U and V react according the following equation:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=U&plus;2V\rightarrow&space;3V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U&plus;2V\rightarrow&space;3V" title="U+2V\rightarrow 3V" /></a>
+<center><img src="https://latex.codecogs.com/gif.latex?U&plus;2V\rightarrow&space;3V" title="U+2V\rightarrow 3V" /></center>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=V\rightarrow&space;P" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V\rightarrow&space;P" title="V\rightarrow P" /></a>
 
