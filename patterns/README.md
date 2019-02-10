@@ -41,3 +41,11 @@ Spotted Eagle Ray
   <img src="http://www.animalspot.net/wp-content/uploads/2012/01/Spotted-eagle-ray-Photos.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.png" width="200"/>
 </p>
+
+### Labyrinthine pattern (f=0.04, k=0.06)
+Brain Coral
+<p align="center">
+  <img src="https://oceana.org/sites/default/files/styles/lightbox/public/shutterstock_260309279.jpg" height="200"/>
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/labyrinthine_pattern.png" width="200"/>
+</p>
+
