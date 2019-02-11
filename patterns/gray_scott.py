@@ -64,12 +64,12 @@ class FKmap(GrayScott):
         self.init_k()
         
     def init_f(self):
-        for n, i in enumerate(range(self.tile)):
-            self.f[self.size[0]//self.tile*i:self.size[0]//self.tile*(i+1),:] = 0.004*n*10/self.tile
+        for i in range(self.tile):
+            self.f[self.size[0]//self.tile*i:self.size[0]//self.tile*(i+1),:] = 0.004*i*10/self.tile
     
     def init_k(self):
-        for n, i in enumerate(range(self.tile)):
-            self.k[:,self.size[0]//self.tile*i:self.size[1]//self.tile*(i+1)] = 0.002*n*10/self.tile + 0.05
+        for i in range(self.tile):
+            self.k[:,self.size[0]//self.tile*i:self.size[1]//self.tile*(i+1)] = 0.002*i*10/self.tile + 0.05
 
 if __name__ == '__main__':
     unstable_spots = GrayScott(size=(400,400), f=0.012, k=0.05)
