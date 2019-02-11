@@ -53,6 +53,23 @@ class GrayScott(object):
         self.ax.imshow(self.u, interpolation='nearest', cmap=self.color)
         plt.axis('off')
         return mplfig_to_npimage(self.fig)
+    
+class FKmap(GrayScott):
+    def __init__(self, size=(400,400), tile=10, Du=2e-5, Dv=1e-5, color='CMRmap'):
+        super().__init__(size, Du, Dv, None, None, color)
+        self.tile = tile
+        self.f = np.zeros(size)
+        self.k = np.zeros(size)
+        self.init_f()
+        self.init_k()
+        
+    def init_f(self):
+        for n, i in enumerate(range(self.tile)):
+            self.f[self.size[0]//self.tile*i:self.size[0]//self.tile*(i+1),:] = 0.004*n*10/self.tile
+    
+    def init_k(self):
+        for n, i in enumerate(range(self.tile)):
+            self.k[:,self.size[0]//self.tile*i:self.size[1]//self.tile*(i+1)] = 0.002*n*10/self.tile + 0.05
 
 if __name__ == '__main__':
     unstable_spots = GrayScott(size=(400,400), f=0.012, k=0.05)
