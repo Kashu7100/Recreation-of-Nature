@@ -57,3 +57,8 @@ This pattern can be seen in Burrfish.
   <img src="https://scaquarium.org/wp-content/uploads/2015/11/sc-aquarium-burrfish-animal-spec-sheet.jpg" height="200"/>
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/worm_like_pattern.png" width="200"/>
 </p>
+
+### FK Map
+<p align="center">
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/fk_map.png" width="300"/>
+</p>
