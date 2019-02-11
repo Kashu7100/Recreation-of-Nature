@@ -58,7 +58,7 @@ This pattern can be seen in Burrfish.
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/worm_like_pattern.png" width="200"/>
 </p>
 
-### FK Map
+### Tiled FK Map
 The following pattern represents the distribution of f and k parameters over x-y axes.
 
 <p align="center">
