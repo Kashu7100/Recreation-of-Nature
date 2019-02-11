@@ -59,6 +59,8 @@ This pattern can be seen in Burrfish.
 </p>
 
 ### FK Map
+The following pattern represents the distribution of f and k parameters over x-y axes.
+
 <p align="center">
   <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/fk_map.png" width="300"/>
 </p>
