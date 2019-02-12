@@ -38,3 +38,8 @@ In the following simulation of predation, we can see a simulated interaction of 
 </p>
 
 
+## Particle Swarm Optimization (PSO)
+
+PSO was first intended for simulating social behavior of the movement of organisms in a bird flock.
+
+## Ant Colonies Optimization (ACO)
