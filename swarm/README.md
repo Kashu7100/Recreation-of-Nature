@@ -4,7 +4,7 @@
 
 ## Overview
 
-This section will get into the emergent phenomenon in group behavior. 
+This section will get into the emergent phenomenon in group behavior . 
 
 ## Boids Model
 
