@@ -23,7 +23,7 @@ Kashu, Y., Recreation of Nature, (2019), GitHub repository, https://github.com/K
 ```
 BibTex
 ```bibtex
-@misc{qualia,
+@misc{Recreation of Nature,
   author = {Kashu Yamazaki},
   title = {{R}ecreation of Nature},
   year = {2019},
