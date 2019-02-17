@@ -17,7 +17,7 @@ src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/fk_map
 
 ## Citation
 
-Please cite **Qualia** if you use in your research.
+Please cite **Recreation of Nature** if you use in your research.
 ```
 Kashu, Y., Recreation of Nature, (2019), GitHub repository, https://github.com/Kashu7100/Recreation-of-Nature
 ```
