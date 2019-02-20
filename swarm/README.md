@@ -19,7 +19,7 @@ Each agent can access directly to the whole scene's geometric description, but a
 
 ### swarm formation
 
-In the following simulation of swarm formation , we can see the process of agents, which were initially at random points in space, forming a swarm.  
+In the following simulation of swarm formation, we can see the process of agents, which were initially at random points in space, forming a swarm.  
 
 [[full video]](https://youtu.be/91VI1aa79-o)      [[source]](/swarm/examples/swarm_formation.py)
 
@@ -29,7 +29,7 @@ In the following simulation of swarm formation , we can see the process of agent
 
 ### predator and prey
 
-In the following simulation of predation, we can see a simulated interaction of predator and prey; one kills and eats another organism, where the predator is represented by the red arrow and the prey is represented by the blue arrow. 
+In the following simulation of predation, we can see a simulated interaction of predator and prey; one kills and eats another organism, where the predator is represented by the red arrow and the prey is represented by the blue arrow. This simulation aimed to simulate the motion of fish.
 
 [[full video]](https://www.youtube.com/watch?v=ITv39Q1UePA)      [[source]](/swarm/examples/predator_prey.py)
 
