@@ -11,9 +11,9 @@
 src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/fk_map.png" height="160"/>
 ## Index
 
-###  ![patterns](/patterns)
+###  1. ![patterns](/patterns)
 This section will get into the emergence of natural patterns.
-###  ![swarms](/swarm)
+###  2. ![swarms](/swarm)
 This section will get into the emergent phenomenon in group behavior and swarm intelligence.
 
 ## Citation
