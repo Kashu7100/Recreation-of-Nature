@@ -46,7 +46,7 @@ PSO was first intended for simulating social behavior of the movement of organis
 In ACO, artificial ants search for good solutions to a given optimization problem. The movements of the an artificial ant are affected by the pheromone produced by other ants. The pheromone evapolates over time.
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Aco_branches.svg/2000px-Aco_branches.svg.png"  width="350"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Aco_branches.svg/2000px-Aco_branches.svg.png"  width="450"/>
 </p>
 
 
