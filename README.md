@@ -2,6 +2,8 @@
   <img src="/assets/Nature.png" height="400"/>
 </p>
 
+Recreation of Nature: patterns, behavior, and cognition 
+
 ## Gallery
 <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/self_replacing_spots.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/stable_spots.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/labyrinthine_pattern.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/worm_like_pattern.png" height="160"/><img
 src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/fk_map.png" height="160"/>
