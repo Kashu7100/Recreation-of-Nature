@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/Nature.png" height="160"/>
+  <img src="/assets/Nature.png" height="500"/>
 </p>
 
 ## Gallery
