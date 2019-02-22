@@ -8,8 +8,7 @@ Recreation of Nature: patterns, behavior, and cognition
 The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth."
 
 ## Gallery
-<img src="/assets/self_replacing_spots.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/stable_spots.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/unstable_spots.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/labyrinthine_pattern.png" height="160"/><img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/worm_like_pattern.png" height="160"/><img
-src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/fk_map.png" height="160"/>
+<img src="/assets/self_replacing_spots.png" height="140"/><img src="/assets/stable_spots.png" height="160"/><img src="/assets/unstable_spots.png" height="160"/><img src="/assets/labyrinthine_pattern.png" height="160"/><img src="/assets/worm_like_pattern.png" height="160"/><img src="/assets/fk_map.png" height="160"/>
 
 ## Index
 
