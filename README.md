@@ -13,7 +13,7 @@ The word nature is derived from the Latin word natura, or "essential qualities, 
 ## Index
 
 ###  1. ![patterns](/patterns)
-This section will get into the emergence of natural patterns.
+This section will get into the emergence of patterns in nature.
 ###  2. ![swarms](/swarm)
 This section will get into the emergent phenomenon in group behavior and swarm intelligence.
 
