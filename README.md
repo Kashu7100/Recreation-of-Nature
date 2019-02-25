@@ -5,8 +5,7 @@
 Recreation of Nature: patterns, behavior, and cognition 
 
 ## Introduction
-The word nature originates from the Latin word natura, which means essential qualities or innate disposition. 
-
+The word nature originates from the Latin word natura, which means essential qualities or innate disposition. This repository aims to re-create the phenomenon in nature to investigate and implement the beauty of the creation.
 
 ## Overview
 Recreation of Nature is a library that consists of the following components:
