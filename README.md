@@ -9,7 +9,7 @@ The word nature originates from the Latin word natura, which means essential qua
 
 
 ## Overview
-Qualia is a library that consists of the following components:
+Recreation of Nature is a library that consists of the following components:
 
 | Component | Description |
 | ---- | --- |
