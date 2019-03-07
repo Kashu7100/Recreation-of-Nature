@@ -22,14 +22,15 @@ Recreation of Nature is a library that consists of the following components:
 
 Please cite **Recreation of Nature** if you use in your research.
 ```
-Kashu, Y., Recreation of Nature, (2019), GitHub repository, https://github.com/Kashu7100/Recreation-of-Nature
+Kashu Y., Recreation of Nature (2019). Computational Simulation of Emergent Phenomenon and Cognitive Process in Nature, <https://github.com/Kashu7100/Recreation-of-Nature>
 ```
 BibTex
 ```bibtex
 @misc{Recreation of Nature,
-  author = {Kashu Yamazaki},
   title = {{R}ecreation of Nature},
+  author = {Kashu Yamazaki},
   year = {2019},
+  keywords = {Python, Simulation, Emergent phenomenon, Cognitive process}
   publisher = {GitHub},
   howpublished = {\url{https://github.com/Kashu7100/Recreation-of-Nature}},
 }
