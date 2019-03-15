@@ -7,10 +7,10 @@ In 1952, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) published a pa
 Gray Scott model describes the variation of u and v, which represent the concentration of chemical U and V respectively. U and V react according the following equation:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/gif.latex?U&plus;2V\rightarrow&space;3V" title="U+2V\rightarrow 3V" />
+  <img src="/assets/u2v.gif" />
 </p>
 <p align="center">
-  <img src="https://latex.codecogs.com/gif.latex?V\rightarrow&space;P" title="V\rightarrow P" />
+  <img src="/assets/v2p.gif" />
 </p>
 <p align="center">
   <img src="/assets/du.gif" />
