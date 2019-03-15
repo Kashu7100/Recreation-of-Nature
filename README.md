@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="/assets/Nature.png" height="400"/>
+  <img src="/assets/RecreationOfNature.png"/>
 </p>
-
-Recreation of Nature: patterns, behavior, and cognition 
 
 ## Introduction
 The word nature originates from the Latin word natura, which means essential qualities or innate disposition. This repository aims to re-create the phenomenon in nature to investigate and implement the beauty of the creation.
