@@ -37,6 +37,8 @@ This pattern can be seen in Puffer Fish.
 <p align="center">
   <img src="https://foodsafetynewsfullservice.marlersites.com/files/2014/01/puffer-fish-406-2.jpg" height="200"/>
   <img src="/assets/stable_spots.png" width="200"/>
+  <br>
+  <b> Figure 2: Puffer Fish</b> (retrieved from <a href="https://foodsafetynewsfullservice.marlersites.com">FSN</a>)
 </p>
 
 ### unstable spots (f=0.012, k=0.05)
@@ -44,6 +46,8 @@ This pattern can be seen in Spotted Eagle Ray.
 <p align="center">
   <img src="http://www.animalspot.net/wp-content/uploads/2012/01/Spotted-eagle-ray-Photos.jpg" height="200"/>
   <img src="/assets/unstable_spots.png" width="200"/>
+  <br>
+  <b> Figure 3: Spotted Eagle Ray</b> (retrieved from <a href="http://www.animalspot.net">Animal Spot</a>)
 </p>
 
 ### Labyrinthine pattern (f=0.04, k=0.06)
@@ -51,6 +55,8 @@ This pattern can be seen in Brain Coral.
 <p align="center">
   <img src="https://oceana.org/sites/default/files/styles/lightbox/public/shutterstock_260309279.jpg" height="200"/>
   <img src="/assets/labyrinthine_pattern.png" width="200"/>
+  <br>
+  <b> Figure 4: Brain Coral</b> (retrieved from <a href="https://oceana.org">OCEANA</a>)
 </p>
 
 ### Worm-like pattern (f=0.042, k=0.064)
@@ -58,6 +64,8 @@ This pattern can be seen in Burrfish.
 <p align="center">
   <img src="https://scaquarium.org/wp-content/uploads/2015/11/sc-aquarium-burrfish-animal-spec-sheet.jpg" height="200"/>
   <img src="/assets/worm_like_pattern.png" width="200"/>
+  <br>
+  <b> Figure 5: Burrfish</b> (retrieved from <a href="https://scaquarium.org">South Carolina Aquarium</a>)
 </p>
 
 ### Tiled FK Map
