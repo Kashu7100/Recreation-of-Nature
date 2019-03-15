@@ -28,6 +28,8 @@ This pattern can be seen in Hawaiian Whitespotted Toby.
 <p align="center">
   <img src="https://mauioceancenter.com/wp-content/uploads/2017/09/White-Spotted-Toby-web-1-768x512.jpg" height="200"/>
   <img src="/assets/self_replacing_spots.png" height="200"/>
+  <br>
+  <b> Figure 1: Hawaiian Whitespotted Toby</b> (retrieved from <a href="https://mauioceancenter.com">MAUI OCEAN CENTER</a>)
 </p>
 
 ### stable spots (f=0.035, k=0.065)
