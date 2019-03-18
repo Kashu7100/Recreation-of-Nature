@@ -69,7 +69,7 @@ This pattern can be seen in Burrfish.
 </p>
 
 ### Tiled FK Map
-The following pattern represents the distribution of f and k parameters over x-y axes.
+The following pattern represents the distribution of f and k parameters over x-y axes. We can exploit this map to re-create [mona lisa](https://github.com/Kashu7100/ComputationalArt/blob/master/assets/gray_scott_monalisa.png) with the Gray Scott model.
 
 <p align="center">
   <img src="/assets/fk_map.png" width="300"/>
