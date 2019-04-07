@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from moviepy.editor import VideoClip
 from moviepy.video.io.bindings import mplfig_to_npimage
+import sys
 
 class GrayScott(object):
     def __init__(self, size=(256,256), Du=2e-5, Dv=1e-5, f=0.035, k=0.065, color='CMRmap'):
@@ -44,6 +45,7 @@ class GrayScott(object):
             self.ax.imshow(self.u, interpolation='nearest', cmap=self.color)
             plt.axis('off')
             plt.draw()
+            fig.canvas.mpl_connect('close_event', self.handle_close)
             plt.pause(.001)
 
     def animation(self, t):
@@ -53,6 +55,9 @@ class GrayScott(object):
         self.ax.imshow(self.u, interpolation='nearest', cmap=self.color)
         plt.axis('off')
         return mplfig_to_npimage(self.fig)
+   
+    def handle_close(evt):
+        sys.exit()
     
 class FKmap(GrayScott):
     def __init__(self, size=(400,400), tile=10, Du=2e-5, Dv=1e-5, color='CMRmap'):
