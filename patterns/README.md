@@ -7,16 +7,16 @@ In 1952, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) published a pa
 Gray Scott model describes the variation of u and v, which represent the concentration of chemical U and V respectively. U and V react according the following equation:
 
 <p align="center">
-  <img src="/assets/u2v.gif" />
+<img src="https://render.githubusercontent.com/render/math?math=U %2B 2V \rightarrow 3V">
 </p>
 <p align="center">
-  <img src="/assets/v2p.gif" />
+<img src="https://render.githubusercontent.com/render/math?math=V \rightarrow P">
 </p>
 <p align="center">
-  <img src="/assets/du.gif" />
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial u}{\partial t} = D_u \triangledown^2u -uv^2 %2B F(1-u) ">
 </p>
 <p align="center">
-  <img src="/assets/dv.gif" />
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial v}{\partial t} = D_v \triangledown^2v %2B uv^2 -(F %2B k)v ">
 </p>
 
 This model can be seen as a simulation of the behavior of diffusive living things reproducing under conditions of limited food. Different patterns emerge for slight changes in feeding and death rates.

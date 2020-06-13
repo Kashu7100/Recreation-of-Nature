@@ -45,18 +45,17 @@ class GrayScott(object):
             self.ax.imshow(self.u, interpolation='nearest', cmap=self.color)
             plt.axis('off')
             plt.draw()
-            fig.canvas.mpl_connect('close_event', self.handle_close)
+            self.fig.canvas.mpl_connect('close_event', self.handle_close)
             plt.pause(.001)
 
     def animation(self, t):
         self.update()
         self.ax.clear()
-        plt.title('Gray-Scott Model')
         self.ax.imshow(self.u, interpolation='nearest', cmap=self.color)
         plt.axis('off')
         return mplfig_to_npimage(self.fig)
    
-    def handle_close(evt):
+    def handle_close(self, evt):
         sys.exit()
     
 class FKmap(GrayScott):
@@ -78,11 +77,11 @@ class FKmap(GrayScott):
 
 if __name__ == '__main__':
     unstable_spots = GrayScott(size=(400,400), f=0.012, k=0.05)
-    for i in range(10000):
-        unstable_spots.update()
-        unstable_spots.visualize(i)
+    # for i in range(10000):
+    #     unstable_spots.update()
+    #     unstable_spots.visualize(i)
     
     # in order to save the animation, take out the comments below 
-    #
-    #animation = VideoClip(g.animation, duration=200)
-    #animation.write_videofile('unstable_spots.mp4', fps=20)
+
+    animation = VideoClip(unstable_spots.animation, duration=200)
+    animation.write_videofile('unstable_spots.mp4', fps=20)

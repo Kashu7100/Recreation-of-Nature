@@ -1,2 +1,2 @@
 # -*- coding: utf-8 -*- 
-from .swarm import *
+from .boids import *

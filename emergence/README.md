@@ -2,6 +2,10 @@
 
 ## [Primordial Particle Systems (PPS)](https://www.nature.com/articles/srep37969)
 
+<p align="center">
+  <img src="https://github.com/Kashu7100/Recreation-of-Nature/blob/master/assets/pps.gif" width="500"/>
+</p>
+
 The motion law of PPS is described as following:
 
 <p align="center">
@@ -10,7 +14,7 @@ The motion law of PPS is described as following:
 
 where a positive change of <img src="https://render.githubusercontent.com/render/math?math=\Phi"> is a turn to the right. The parameter <img src="https://render.githubusercontent.com/render/math?math=\alpha"> represents a fixed rotation, <img src="https://render.githubusercontent.com/render/math?math=\beta"> models a rotation proportional to local neighborhood size. Neighborhood configuration affects <img src="https://render.githubusercontent.com/render/math?math=\Phi_t"> in each time step, in turn changing a particle’s position, ultimately yielding new local configurations. This feedback loop governs the self-organization of the PPS system.
 
-each particle holds position <img src="https://render.githubusercontent.com/render/math?math=p_t=(x_t,y_t)"> and heading <img src="https://render.githubusercontent.com/render/math?math=\Phi_t"> at every time step t. 
+Each particle holds position <img src="https://render.githubusercontent.com/render/math?math=p_t=(x_t,y_t)"> and heading <img src="https://render.githubusercontent.com/render/math?math=\Phi_t"> at every time step t. 
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=p_{t %2B 1} = p_t %2B (v_t \cos(\Phi_t), v_t \sin(\Phi_t))">
