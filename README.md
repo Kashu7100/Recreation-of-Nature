@@ -12,7 +12,7 @@ Recreation of Nature is a library that consists of the following components:
 | **[.swarms](/swarm)** | This section will get into the emergent phenomenon in group behavior and swarm intelligence. |
 
 ## Gallery
-<img src="/assets/self_replacing_spots.png" height="140"/><img src="/assets/stable_spots.png" height="140"/><img src="/assets/unstable_spots.png" height="140"/><img src="/assets/labyrinthine_pattern.png" height="140"/><img src="/assets/worm_like_pattern.png" height="140"/><img src="/assets/fk_map.png" height="140"/><img src="/assets/boids_swarm_formation.gif" height="180"/><img src="/assets/boids_predator_prey.gif" height="180"/><img src="/assets/pps.gif" height="180"/>
+<img src="/assets/self_replacing_spots.png" height="130"/><img src="/assets/stable_spots.png" height="130"/><img src="/assets/unstable_spots.png" height="130"/><img src="/assets/labyrinthine_pattern.png" height="130"/><img src="/assets/worm_like_pattern.png" height="130"/><img src="/assets/fk_map.png" height="130"/><img src="/assets/boids_swarm_formation.gif" height="180"/><img src="/assets/boids_predator_prey.gif" height="180"/><img src="/assets/pps.gif" height="180"/>
 
 ## Citation
 
